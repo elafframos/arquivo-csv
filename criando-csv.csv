@@ -1,0 +1,7 @@
+import csv
+
+with open('playlist.csv', 'w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerow(['Band', 'Music', 'Album'])
+    writer.writerow(['Beatles', 'Coma Together', 'Abbey Road'])
+    writer.writerow(['Led zeppelin', 'Kashimir', 'Physical Graffiti'])
